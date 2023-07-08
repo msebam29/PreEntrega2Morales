@@ -76,11 +76,25 @@
     color: white;
     border: black solid;
 }
-.main-discografia img{
-    width: 250px;
-}
-.main-discografia h1{
+.main-discografia h1 {
+    display: block;
+    text-align: -webkit-center;
     font-family: 'Dokdo', cursive;
+}
+.main-discografia section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.main-discografia div{
+    display: block;
+    text-align: center;
+    width: 157px;
+}
+
+.main-discografia img{
+    width: 80%;
 }
 
 .main-discografia p{
@@ -89,6 +103,7 @@
 .main-discografia small{
     font-family: 'Dokdo', cursive;
 }
+
 .main-tienda{
     background-color: black;
     color: white;
