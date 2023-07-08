@@ -1,0 +1,107 @@
+*{
+    margin: none;
+    padding: none;
+    font-family: sans-serif;
+}
+.header {
+    background-color: black;
+    border: black solid;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 0.3fr;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: 
+    "logo"
+    "nav";
+}
+.header a {grid-area: logo;} 
+.header nav{grid-area: nav;} 
+
+.header img{
+    width: 100px;
+}
+    
+.header a{
+    color: rgb(212, 20, 20);
+    text-decoration: none;
+    font-family: 'Rock Salt', cursive;
+}
+.nav-link:hover{
+    color: white;
+}
+.main {
+    background-color: black;
+    border: black solid;
+    color: white;
+}
+.main img{
+    width: 100%;
+}
+.footer {
+    background-color: black;
+    color: red;
+    border: solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer img {
+    width: 30px;
+    margin-left: 15px;
+}
+.footer p{
+    font-family: 'Rock Salt', cursive;
+}
+.footer small{
+    font-family: 'Rock Salt', cursive;
+}
+.main-shows{
+    background-color: black;
+    color: white;
+    border: black solid;
+}
+
+.show-1 img{
+    width: 700px;
+}
+.main-discografia{
+    background-color: black;
+    color: white;
+    border: black solid;
+}
+.main-discografia img{
+    width: 250px;
+}
+.main-discografia h1{
+    font-family: 'Dokdo', cursive;
+}
+
+.main-discografia p{
+    font-family: 'Dokdo', cursive;
+}
+.main-discografia small{
+    font-family: 'Dokdo', cursive;
+}
+.main-tienda{
+    background-color: black;
+    color: white;
+    border: black solid;
+}
+.main-tienda img{
+    width: 300px;
+}
+.main-contacto{
+    background-color: black;
+    color: white;
+    border: black solid;
+}
+.main-contacto img{
+    width: 50%;
+}
