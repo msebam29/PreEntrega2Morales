@@ -80,7 +80,6 @@
     flex-direction: column;
 }
 .show-principal{
-    /* width:  */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,12 +92,11 @@
     text-align: center;
     font-family: 'Dokdo', cursive;
 }
-.shows-secundarios{
-    overflow: scroll;
-}
+
 .shows-chicos{
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
+    align-items: center;    
 }
 .shows-chicos img{
     width: 40%;
@@ -158,4 +156,46 @@
 }
 .main-contacto img{
     width: 50%;
+}
+
+@media (min-width: 768px){
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: flex-start
+    }
+    .shows-chicos img{
+        width: 50%;
+    }
+    .shows-chicos p{
+        width: 50%;     
+        font-family: 'Dokdo', cursive;
+        font-size: large;
+        line-height: normal;
+    }
+}
+@media (min-width: 1024px){
+    .shows{
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;       
+    }
+    .show-principal img{
+        height: 75%;
+    }
+    .show-principal p{
+        font-size: large;
+    }
+    .shows-secundarios{
+        overflow: scroll;
+    }
+    .shows-chicos{
+        display: flex;
+        flex-direction: row;    
+    }
+    .shows-chicos img{
+        height: 300px;
+    }
 }
