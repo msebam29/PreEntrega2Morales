@@ -65,12 +65,51 @@
 .main-shows{
     background-color: black;
     color: white;
-    border: black solid;
+    border: black solid;   
+}
+.main-shows h1 {
+    display: block;
+    text-align: -webkit-center;
+    font-family: 'Dokdo', cursive;
+}
+.main-shows a{
+    font-family: 'Dokdo', cursive;
+}
+.shows{
+    display: flex;
+    flex-direction: column;
+}
+.show-principal{
+    /* width:  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.show-principal img{
+    width: 100%;
+}
+.show-principal p{
+    line-height: 10px;
+    text-align: center;
+    font-family: 'Dokdo', cursive;
+}
+.shows-secundarios{
+    overflow: scroll;
+}
+.shows-chicos{
+    display: flex;
+    flex-direction: row;    
+}
+.shows-chicos img{
+    width: 40%;
+}
+.shows-chicos p{
+    width: 60%;
+    font-size: small;
+    line-height: 7px;
+    font-family: 'Dokdo', cursive;
 }
 
-.show-1 img{
-    width: 700px;
-}
 .main-discografia{
     background-color: black;
     color: white;
